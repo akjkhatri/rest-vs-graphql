@@ -86,4 +86,4 @@ Data is hard-coded in memory so the focus stays on the API layer. A natural next
 
 ## Author
 
-**Anand Kumar** — Senior Java Engineer & Tech Lead, fintech and payments systems.
+**Anand Kumar** — Senior Java Tech Lead & Consultant | fintech, payments and AI-augmented delivery.
