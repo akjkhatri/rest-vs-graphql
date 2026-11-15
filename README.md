@@ -1,5 +1,7 @@
 # REST vs GraphQL
 
+[![Build](https://github.com/akjkhatri/bdd-framework-comparison/actions/workflows/build.yml/badge.svg)](https://github.com/akjkhatri/bdd-framework-comparison/actions/workflows/build.yml)
+
 A minimal Spring Boot 3 service that exposes the same data — a product and its reviews — through both a REST API and a GraphQL API, so the difference in how clients fetch data can be seen side by side.
 
 ## Why this exists
