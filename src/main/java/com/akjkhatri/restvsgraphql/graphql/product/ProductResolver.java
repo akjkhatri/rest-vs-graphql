@@ -2,13 +2,14 @@ package com.akjkhatri.restvsgraphql.graphql.product;
 
 import com.akjkhatri.restvsgraphql.schema.Product;
 import com.akjkhatri.restvsgraphql.schema.Review;
-import graphql.kickstart.tools.GraphQLQueryResolver;
-import org.springframework.stereotype.Component;
+import org.springframework.graphql.data.method.annotation.Argument;
+import org.springframework.graphql.data.method.annotation.QueryMapping;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
 @Controller
-public class ProductResolver implements GraphQLQueryResolver {
+public class ProductResolver {
     @QueryMapping
     public Product product(@Argument int id) {
         return new Product(123, "Smartphone", 699.99, List.of(
