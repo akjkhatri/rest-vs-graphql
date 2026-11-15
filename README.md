@@ -15,8 +15,8 @@ REST and GraphQL solve the same problem in different ways. With REST, the server
 
 ## Tech stack
 
-- Java 21
-- Spring Boot 3.4 (`spring-boot-starter-web`, `spring-boot-starter-graphql`)
+- Java 25
+- Spring Boot 3.5 (`spring-boot-starter-web`, `spring-boot-starter-graphql`)
 - Java records for the domain model
 - Maven (wrapper included)
 
