@@ -84,6 +84,8 @@ type Query {
 
 Data is hard-coded in memory so the focus stays on the API layer. A natural next step is backing both APIs with a shared repository and adding a field-level resolver for `reviews` to show how GraphQL avoids loading data the client didn't ask for.
 
+📝 Read the full write-up: [GraphQL vs REST: Is GraphQL Truly the Successor to REST APIs?](https://medium.com/@akjkhatri/is-graphql-really-the-replacement-for-rest-bcc60b10183b)
+
 ## Author
 
 **Anand Kumar** — Senior Java Tech Lead & Consultant | fintech, payments and AI-augmented delivery.
